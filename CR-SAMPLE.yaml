@@ -1,0 +1,9 @@
+apiVersion: "test.group/v1"
+kind: Sample
+metadata:
+  name: new-sample
+spec:
+  id: "id-1"
+  name: "name-1"
+status:
+  progressStatus: ""

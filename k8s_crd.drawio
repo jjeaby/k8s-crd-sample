@@ -1,0 +1,190 @@
+<mxfile host="65bd71144e">
+    <diagram id="tz4l9BjAoEfKqlFX_y91" name="Page-1">
+        <mxGraphModel dx="1108" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="66" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="90" y="790" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Service #1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#666666;fillColor=#FFFFFF;" parent="66" vertex="1">
+                    <mxGeometry y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;" parent="66" vertex="1">
+                    <mxGeometry x="35" width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="380" y="787" width="120" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;Kube API Server&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#666666;fillColor=#FFFFFF;" parent="67" vertex="1">
+                    <mxGeometry y="33" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;" parent="67" vertex="1">
+                    <mxGeometry x="35" width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="670" y="790" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;b&gt;etcd&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;(CRD, CR Store)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#666666;fillColor=#FFFFFF;" parent="68" vertex="1">
+                    <mxGeometry y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=etcd;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;" parent="68" vertex="1">
+                    <mxGeometry x="40" width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="380" y="990" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;b&gt;Operator&lt;br&gt;: Custom Controller&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;(Crate Custom &lt;br&gt;Controller Code)&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#666666;fillColor=#FFFFFF;" parent="69" vertex="1">
+                    <mxGeometry y="48" width="120" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="670" y="900" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;b&gt;POD&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#666666;fillColor=#FFFFFF;" parent="70" vertex="1">
+                    <mxGeometry y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;" parent="70" vertex="1">
+                    <mxGeometry x="35" width="50" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="210" y="810" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;font style=&quot;font-size: 10px&quot;&gt;1. Custom&amp;nbsp;&lt;br&gt;Resouce&amp;nbsp;&lt;br&gt;Spec Write&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;" parent="71" vertex="1">
+                    <mxGeometry x="40" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=none;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="71" target="19" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint y="25" as="sourcePoint"/>
+                        <mxPoint x="170" y="25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" parent="71" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="25" as="sourcePoint"/>
+                        <mxPoint x="170" y="25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="500" y="820" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font style=&quot;font-size: 10px&quot; color=&quot;#0f0f0f&quot;&gt;2. Custom&amp;nbsp;&lt;br&gt;Resouce&amp;nbsp;&lt;br&gt;Spec Write&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;" parent="72" vertex="1">
+                    <mxGeometry x="40" y="-5" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=none;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="72" target="33" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint y="15" as="sourcePoint"/>
+                        <mxPoint x="170" y="15" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" parent="72" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="15" as="sourcePoint"/>
+                        <mxPoint x="170" y="15" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="361" y="880" width="80" height="110.00000000000023" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;startArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="123" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="40" as="sourcePoint"/>
+                        <mxPoint x="40" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="122" value="" style="endArrow=none;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;startArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="123" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="110.00000000000023" as="sourcePoint"/>
+                        <mxPoint x="40" y="70.00000000000023" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="156" value="" style="group;rotation=15;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="490.34" y="887.41" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="&lt;font style=&quot;font-size: 10px&quot;&gt;5. Create POD&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;rotation=15;" parent="156" vertex="1">
+                    <mxGeometry x="48.18181818181818" y="-7" width="94.11764705882352" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="" style="endArrow=none;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="156" target="157" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="14.545454545454545" y="-16" as="sourcePoint"/>
+                        <mxPoint x="186.36363636363635" y="4" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="159" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;startArrow=none;" parent="156" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="133.63636363636363" y="24" as="sourcePoint"/>
+                        <mxPoint x="182.72727272727272" y="39" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="167" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="439" y="880" width="121" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="" style="endArrow=classic;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;startArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="167" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60.5" y="39.999999999999915" as="sourcePoint"/>
+                        <mxPoint x="60.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="176" value="" style="endArrow=none;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;strokeColor=#000000;strokeWidth=2;startArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="167" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60.5" y="110" as="sourcePoint"/>
+                        <mxPoint x="60.5" y="70.00000000000009" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="179" value="" style="group;fillColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="366" y="900" width="77" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="" style="group" parent="179" vertex="1" connectable="0">
+                    <mxGeometry width="77" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="" style="group" parent="180" vertex="1" connectable="0">
+                    <mxGeometry width="77" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="" style="group" parent="181" vertex="1" connectable="0">
+                    <mxGeometry width="77" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="" style="group" parent="182" vertex="1" connectable="0">
+                    <mxGeometry width="77" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="" style="group" parent="183" vertex="1" connectable="0">
+                    <mxGeometry width="77" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="&lt;font style=&quot;font-size: 10px&quot;&gt;3. Custom Resource&lt;br&gt;Watch&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;" parent="184" vertex="1">
+                    <mxGeometry width="77" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="" style="group;fillColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="441" y="917.41" width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="" style="group" parent="186" vertex="1" connectable="0">
+                    <mxGeometry width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="" style="group" parent="187" vertex="1" connectable="0">
+                    <mxGeometry width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="" style="group" parent="188" vertex="1" connectable="0">
+                    <mxGeometry width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="" style="group" parent="189" vertex="1" connectable="0">
+                    <mxGeometry width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="" style="group" parent="190" vertex="1" connectable="0">
+                    <mxGeometry width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="&lt;font style=&quot;font-size: 10px&quot;&gt;4. Custom Resource&amp;nbsp;&lt;br&gt;Status Write &amp;amp;&lt;br&gt;Create POD&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;startSize=23;" parent="191" vertex="1">
+                    <mxGeometry width="121" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.slideshow;rounded=0;fontFamily=Helvetica;startSize=23;" vertex="1" parent="1">
+                    <mxGeometry x="415" y="992" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="&lt;h4 class=&quot;graf graf--h4&quot;&gt;&lt;br&gt;&lt;/h4&gt;&lt;h4 class=&quot;graf graf--h4&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;** Operator&amp;nbsp;: Custom Controller&amp;nbsp;&lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Custom Resource Definition 을 정의한 사용자가 개발한 컨트롤러입니다. custom controller를 사용하여 원하는 대로 제어 할 수 있습니다.&lt;/span&gt;&lt;/font&gt;&lt;/h4&gt;&lt;p class=&quot;graf graf--p graf--empty&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="1070" width="300" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="&lt;h4 class=&quot;graf graf--h4&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;strong class=&quot;markup--strong markup--h4-strong&quot;&gt;** Kube API&amp;nbsp;Server&lt;br&gt;&lt;/strong&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Kube API Server는 Cluster 에 접근하기 위한 API 가 있는 서버로 kubernetes 의 모든 기능을 제어 할 수 있는 서버입니다.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/h4&gt;&lt;h4 class=&quot;graf graf--h4&quot;&gt;&lt;br&gt;&lt;/h4&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="730" width="300" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="&lt;h4 class=&quot;graf graf--h4&quot; style=&quot;color: rgb(240 , 240 , 240)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;** etcd&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-weight: normal&quot;&gt;분산형 저장소&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="740" width="110" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
